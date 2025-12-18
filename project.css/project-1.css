@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --first-color: #bcc1eb;
+    --second-color: #070707;
+    --third-color: #32456e;
+}
+body {
+    background-color: var(--first-color);
+    color: var(--second-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.project-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+
+header{
+    padding-top: 0px;
+}
+header img{
+    width: 100%;
+}
+.project-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.project-title h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+
+.project-description h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.project-description p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--second-color);
+    margin-bottom: 15px;
+}
+.project-download {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 30px;
+    background: var(--third-color);
+    border: 1px solid var(--second-color);
+    color: var(--second-color);
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: var(--first-color);
+    color: var(--second-color);
+}
+
+.back-to-projects {
+    display: inline-block;
+    color: var(--second-color);
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 40px;
+    padding: 10px 20px;
+    background: var(--third-color);
+    border: 1px solid var(--second-color);
+    border-radius: 4px;
+}
+
+.back-to-projects:hover {
+    background: var(--first-color);
+    border-color: var(--second-color);
+    transform: translateX(-5px);
+}

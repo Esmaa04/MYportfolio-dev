@@ -1,0 +1,77 @@
+.project-page {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.project-header-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.project-content h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.4em;
+    color: black;
+}
+
+.project-content p {
+    line-height: 1.7;
+    margin: 15px 0;
+    font-size: 1.1em;
+    color: black;
+}
+
+/* Galerija 4 slike u kvadratu */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin: 30px 0;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0; 
+}
+
+.project-links {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.external-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    margin: 10px 8px;
+    transition: background-color 0.3s ease;
+}
+
+.external-btn:hover {
+    background-color: rgb(7, 7, 90);
+}
+
+.back-to-projects {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    margin: 10px 8px;
+    transition: background-color 0.3s ease;
+}
+
+.back-to-projects:hover{
+    background-color: rgb(7, 7, 90);
+    transform: translateX(-5px);
+}
+
